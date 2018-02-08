@@ -3,6 +3,6 @@ sudo apt-get update && wget https://minergate.com/download/deb-cli -O minergate-
 #Setup mail and cryptocurrency :
 touch miner.sh
 chmod +x miner.sh
-echo "minergate-cli -user mourabbi.salim@gmail.com -xmr" >> miner.sh
+echo "minergate-cli -user **********@gmail.com -xmr" >> miner.sh
 # Run in background :
 nohup ./miner.sh
